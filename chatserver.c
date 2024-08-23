@@ -30,6 +30,9 @@ int get_listener_socket(void)
     int yes=1;        // For setsockopt() SO_REUSEADDR, below
     int rv;
 
+    # Test by Pierce
+    
+
     struct addrinfo hints, *ai, *p;
 
     memset(&hints, 0, sizeof hints);
